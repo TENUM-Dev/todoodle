@@ -1,0 +1,21 @@
+{
+  "servers": {
+    "playwright": {
+      "command": "npx",
+      "args": [
+        "@playwright/mcp@latest"
+      ]
+    },
+    "workflows-mcp-server": {
+      "command": "npx",
+      "args": ["workflows-mcp-server@latest"],
+      "env": {
+        "MCP_LOG_LEVEL": "info"
+      }
+    },
+    "tenum": {
+      "command": "tdm",
+      "args": ["mcp"]
+    }
+  }
+}    

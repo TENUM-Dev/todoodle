@@ -1,0 +1,19 @@
+{
+    "dependencies": [
+        {
+            "group": "tenum",
+            "artifact": "LuAct",
+            "version": "0.1.5"
+        },
+        {
+            "group": "tenum",
+            "artifact": "router",
+            "version": "0.0.1"
+        },
+        {
+            "group": "tenum",
+            "artifact": "user",
+            "version": "0.1.5"
+        }
+    ]
+}
